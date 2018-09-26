@@ -31,8 +31,6 @@ while(1):
 
     cv2.imshow('frame2',rgb)
     k = cv2.waitKey(30) & 0xff
-    cv2.imwrite('opticalfb.png',frame2)
-    cv2.imwrite('opticalhsv.png',rgb)
     prvs = next
     
 
